@@ -165,7 +165,52 @@ video {
 }
 
 
+#world {
+    width: 120%;
+    margin-top: 5%;
+    margin-right: 2%;
+}
 
+.centrerknap {
+    color: #000;
+}
+
+#eu {
+    position: absolute;
+    left: 45%;
+    top: 137%;
+
+}
+
+#NA {
+    position: absolute;
+    left: 15%;
+    top: 139%;
+}
+
+#SA {
+    position: absolute;
+    left: 23.5%;
+    top: 170%;
+}
+
+#af {
+    position: absolute;
+    left: 45%;
+    top: 159%;
+}
+
+#as {
+    position: absolute;
+    left: 61%;
+    top: 144%;
+}
+
+#au {
+    position: absolute;
+    left: 73%;
+    top: 176%;
+}
 
 
 
