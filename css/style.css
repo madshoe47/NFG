@@ -61,9 +61,7 @@ body {
 }
 
 
-main {
-    margin-right: 120px;
-}
+
 
 .section {
     display: flex;
@@ -89,7 +87,7 @@ main {
 }
 
 #top-tore {
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 #grape {
@@ -150,7 +148,7 @@ footer,
 }
 
 #reelVideo {
-    width: 120%;
+    width: 121%;
     height: 100%;
     margin-left: -15%;
     margin-top: -9%;
