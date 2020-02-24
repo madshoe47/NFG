@@ -16,6 +16,10 @@ body {
     color: #333;
 }
 
+p {
+    font-family: 'Poppins', serif;
+}
+
 .progressbar {
     position: absolute;
     left: 0%;
