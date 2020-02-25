@@ -540,8 +540,85 @@ video {
 
 #section5 {
     background-color: #333;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
+.bordertop {
+    position: absolute;
+    top: -15%;
+}
+
+.grape {
+    width: 15%;
+    position: absolute;
+    top: -18%;
+    left: -2%;
+}
+
+.bazar {
+    color: #fff;
+    position: absolute;
+
+
+}
+
+#findo {
+    top: 5%;
+    right: 41%;
+    font-size: 30px;
+}
+
+#findotext {
+    top: 10%;
+    right: 22%;
+    font-size: 20px
+}
+
+#mapVideo {
+    width: 75%;
+    height: auto;
+    margin-left: -10%;
+    margin-top: 5%;
+
+}
+
+#over {
+    position: absolute;
+    height: 11%;
+    width: 75%;
+    top: 16.9%;
+    left: 7.5%;
+    z-index: 11;
+}
+
+#under1 {
+    position: absolute;
+    height: 11%;
+    width: 75%;
+    top: 80.6%;
+    left: 7.5%;
+    z-index: 11;
+
+}
+
+#borderbot {
+    position: absolute;
+    bottom: -10%;
+}
+
+.fruitone {
+    width: 18%;
+    z-index: 14;
+    transform: rotateY(180deg);
+    position: absolute;
+    bottom: -3%;
+    right: 6%;
+}
 
 /*Styling til devices */
 

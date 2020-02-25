@@ -75,3 +75,7 @@ document.getElementById("play").onclick = function () {
         audio.play();
     }
 };
+
+var video1 = document.getElementById("mapVideo");
+video1.autoplay = true;
+video1.load();
