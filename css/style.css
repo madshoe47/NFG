@@ -394,7 +394,114 @@ video {
 }
 
 
+#section3 {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
+.green {
+    position: absolute;
+    top: -20px;
+    left: -50px;
+    width: 20%;
+    z-index: 100;
+    transform: rotateY(180deg);
+}
+
+.orange {
+    position: absolute;
+    top: 500px;
+    right: 60px;
+    width: 20%;
+    z-index: 80;
+    transform: rotateY(180deg);
+}
+
+#border1 {
+    position: absolute;
+    margin-top: -25%;
+}
+
+#musti {
+    width: 27%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+#play {
+    width: 10%;
+    position: absolute;
+    left: 16%;
+    top: 50%;
+}
+
+#play:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#pil {
+    position: absolute;
+    left: 0%;
+    top: 55%;
+    width: 16%;
+}
+
+.ommusti {
+    color: white;
+    display: flex;
+    position: absolute;
+    width: 35%;
+    top: 20%;
+    right: 20%;
+    height: 50%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.ommusti .musti {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.ommusti .musti2 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ommusti .musti3 {
+    font-size: 14px;
+    line-height: 18px;
+    font-style: oblique;
+    margin-top: -2%;
+}
+
+#border2 {
+    position: absolute;
+    margin-top: 22%;
+    height: 25%;
+}
+
+#audio {
+    display: none;
+}
+
+
+#section4 {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
 /*Styling til devices */
 

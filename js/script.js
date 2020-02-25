@@ -65,3 +65,13 @@ document.getElementById('au').addEventListener('click', function () {
 document.querySelector('.close6').addEventListener('click', function () {
     document.querySelector('.bg-modal6').style.display = 'none';
 });
+
+
+document.getElementById("play").onclick = function () {
+    var audio = document.getElementById("audio");
+    if (audio.paused == false) {
+        audio.pause();
+    } else {
+        audio.play();
+    }
+};
