@@ -515,13 +515,25 @@ video {
 }
 
 .butikken {
-    width: 40%;
-    height: 50%;
+    width: 490px;
+    height: 360px;
     position: absolute;
-    top: 20%;
-    left: 5%;
+    top: 22%;
+    left: 5.5%;
     border-radius: 10px;
 }
+
+#tilbage {
+    position: absolute;
+    top: 75%;
+    left: 15%;
+}
+#frem {
+    position: absolute;
+    top: 75%;
+    left: 28%;
+}
+
 
 #under {
     width: 35%;

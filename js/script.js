@@ -79,3 +79,37 @@ document.getElementById("play").onclick = function () {
 var video1 = document.getElementById("mapVideo");
 video1.autoplay = true;
 video1.load();
+
+
+
+function gaaFremad() {
+    if (billedIndeks < billedliste.length - 1) {
+        billedIndeks++;
+    } else {
+        billedIndeks = 0;
+    }
+
+    document.getElementById("slidebillede").src = billedliste[billedIndeks];
+}
+
+function gaaTilbage() {
+    if (billedIndeks > 0) {
+        billedIndeks--;
+    } else {
+        billedIndeks = 5;
+    }
+
+    document.getElementById("slidebillede").src = billedliste[billedIndeks];
+}
+
+// ------- Hovedprogram ---------
+const billedliste = ["../images/butikken.png", "../images/billede1.png", "../images/billede2.png", "../images/billede3.png", "../images/billede4.png", "../images/billede5.png"];
+let billedIndeks = 0;
+
+document.getElementById("frem").addEventListener("click", function () {
+    gaaFremad();
+})
+
+document.getElementById("tilbage").addEventListener("click", function () {
+    gaaTilbage();
+})
