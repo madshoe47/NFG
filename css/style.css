@@ -620,6 +620,108 @@ video {
     right: 6%;
 }
 
+.kontakt {
+    color: #000;
+}
+
+#section6 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#kontaktos {
+    position: absolute;
+    top: 5%;
+    right: 50%;
+}
+
+#logobazar {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    width: 30%;
+}
+
+.mapouter {
+
+    text-align: right;
+    position: absolute;
+    top: 41%;
+    left: 6.5%;
+    height: 350px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 350px;
+    width: 500px;
+}
+
+#logofrugt {
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    left: 53%;
+}
+
+.skrifter {
+    position: absolute;
+    left: 65.6%;
+}
+
+.adresse {
+    position: absolute;
+    left: 59%;
+    top: 51%
+}
+
+#telefon {
+    top: 58%;
+}
+
+.Telefon {
+    position: absolute;
+    top: 61%;
+    left: 63.8%;
+}
+
+#mail {
+    top: 69%;
+}
+
+.email {
+    position: absolute;
+    top: 72%;
+    left: 62.2%;
+}
+
+#cvr {
+    top: 80%;
+}
+
+.cvr {
+    position: absolute;
+    top: 83%;
+    left: 65.5%;
+}
+
+.bot {
+    position: absolute;
+    bottom: -15%;
+}
+
+.greenie {
+    position: absolute;
+    width: 15%;
+    bottom: -14%;
+    left: -4%;
+}
+
 /*Styling til devices */
 
 /* Extra small devices (phones, 600px and down) */
