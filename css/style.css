@@ -168,10 +168,23 @@ video {
     z-index: 2;
 }
 
+.overskrift {
+    position: absolute;
+    margin-top: -24%;
+    text-align: center;
+
+}
+
+.overskrift1 {
+    position: absolute;
+    margin-top: -22%;
+    text-align: center;
+
+}
 
 #world {
     width: 120%;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-right: 2%;
 }
 
@@ -217,8 +230,501 @@ video {
 }
 
 
+.bg-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.bg-modal2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.bg-modal3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.bg-modal4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.bg-modal5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.bg-modal6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    display: none;
+}
 
 
+
+
+.modal-content {
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+
+}
+
+.eu1 {
+    width: 320px;
+    height: 250px;
+    margin-right: 1%;
+    border-radius: 5px;
+}
+
+.eu2 {
+    width: 320px;
+    height: 250px;
+    margin-left: 1%;
+    border-radius: 5px;
+}
+
+.modal-content h2 {
+    font-size: 42px;
+}
+
+.modal-content h4 {
+    font-size: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close2 {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close3 {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close4 {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close5 {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close6 {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+
+#section3 {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.green {
+    position: absolute;
+    top: -20px;
+    left: -50px;
+    width: 20%;
+    z-index: 100;
+    transform: rotateY(180deg);
+}
+
+.orange {
+    position: absolute;
+    top: 500px;
+    right: 60px;
+    width: 20%;
+    z-index: 80;
+    transform: rotateY(180deg);
+}
+
+#border1 {
+    position: absolute;
+    margin-top: -25%;
+}
+
+#musti {
+    width: 27%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+#play {
+    width: 10%;
+    position: absolute;
+    left: 16%;
+    top: 50%;
+}
+
+#play:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#pil {
+    position: absolute;
+    left: 0%;
+    top: 55%;
+    width: 16%;
+}
+
+.ommusti {
+    color: white;
+    display: flex;
+    position: absolute;
+    width: 35%;
+    top: 20%;
+    right: 20%;
+    height: 50%;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.ommusti .musti {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.ommusti .musti2 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ommusti .musti3 {
+    font-size: 14px;
+    line-height: 18px;
+    font-style: oblique;
+    margin-top: -2%;
+}
+
+#border2 {
+    position: absolute;
+    margin-top: 22%;
+    height: 25%;
+}
+
+#audio {
+    display: none;
+}
+
+
+#section4 {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#section4 #historie {
+    font-size: 40px;
+    position: absolute;
+    top: 5%;
+    left: 29%;
+}
+
+.butikken {
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    border-radius: 10px;
+}
+
+#under {
+    width: 35%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+#byside {
+    width: 35%;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+
+#section5 {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.bordertop {
+    position: absolute;
+    top: -15%;
+}
+
+.grape {
+    width: 15%;
+    position: absolute;
+    top: -18%;
+    left: -2%;
+}
+
+.bazar {
+    color: #fff;
+    position: absolute;
+
+
+}
+
+#findo {
+    top: 5%;
+    right: 41%;
+    font-size: 30px;
+}
+
+#findotext {
+    top: 10%;
+    right: 22%;
+    font-size: 20px
+}
+
+#mapVideo {
+    width: 75%;
+    height: auto;
+    margin-left: -10%;
+    margin-top: 5%;
+
+}
+
+#over {
+    position: absolute;
+    height: 11%;
+    width: 75%;
+    top: 16.9%;
+    left: 7.5%;
+    z-index: 11;
+}
+
+#under1 {
+    position: absolute;
+    height: 11%;
+    width: 75%;
+    top: 80.6%;
+    left: 7.5%;
+    z-index: 11;
+
+}
+
+#borderbot {
+    position: absolute;
+    bottom: -10%;
+}
+
+.fruitone {
+    width: 18%;
+    z-index: 14;
+    transform: rotateY(180deg);
+    position: absolute;
+    bottom: -3%;
+    right: 6%;
+}
+
+.kontakt {
+    color: #000;
+}
+
+#section6 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#kontaktos {
+    position: absolute;
+    top: 5%;
+    right: 50%;
+}
+
+#logobazar {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    width: 30%;
+}
+
+.mapouter {
+
+    text-align: right;
+    position: absolute;
+    top: 41%;
+    left: 6.5%;
+    height: 350px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 350px;
+    width: 500px;
+}
+
+#logofrugt {
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    left: 53%;
+}
+
+.skrifter {
+    position: absolute;
+    left: 65.6%;
+}
+
+.adresse {
+    position: absolute;
+    left: 59%;
+    top: 51%
+}
+
+#telefon {
+    top: 58%;
+}
+
+.Telefon {
+    position: absolute;
+    top: 61%;
+    left: 63.8%;
+}
+
+#mail {
+    top: 69%;
+}
+
+.email {
+    position: absolute;
+    top: 72%;
+    left: 62.2%;
+}
+
+#cvr {
+    top: 80%;
+}
+
+.cvr {
+    position: absolute;
+    top: 83%;
+    left: 65.5%;
+}
+
+.bot {
+    position: absolute;
+    bottom: -15%;
+}
+
+.greenie {
+    position: absolute;
+    width: 15%;
+    bottom: -14%;
+    left: -4%;
+}
 
 /*Styling til devices */
 
