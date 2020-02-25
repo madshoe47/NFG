@@ -503,6 +503,46 @@ video {
     position: relative;
 }
 
+#section4 #historie {
+    font-size: 40px;
+    position: absolute;
+    top: 5%;
+    left: 29%;
+}
+
+.butikken {
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    border-radius: 10px;
+}
+
+#under {
+    width: 35%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+#byside {
+    width: 35%;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+
+#section5 {
+    background-color: #333;
+}
+
+
 /*Styling til devices */
 
 /* Extra small devices (phones, 600px and down) */
