@@ -164,10 +164,23 @@ video {
     z-index: 2;
 }
 
+.overskrift {
+    position: absolute;
+    margin-top: -24%;
+    text-align: center;
+
+}
+
+.overskrift1 {
+    position: absolute;
+    margin-top: -22%;
+    text-align: center;
+
+}
 
 #world {
     width: 120%;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-right: 2%;
 }
 
@@ -212,6 +225,173 @@ video {
     top: 176%;
 }
 
+
+.bg-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.bg-modal2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.bg-modal3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.bg-modal4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.bg-modal5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.bg-modal6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    display: none;
+}
+
+
+
+
+.modal-content {
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+
+}
+
+.eu1 {
+    width: 320px;
+    height: 250px;
+    margin-right: 1%;
+    border-radius: 5px;
+}
+
+.eu2 {
+    width: 320px;
+    height: 250px;
+    margin-left: 1%;
+    border-radius: 5px;
+}
+
+.modal-content h2 {
+    font-size: 42px;
+}
+
+.modal-content h4 {
+    font-size: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close2 {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close3 {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close4 {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close5 {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close6 {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 50px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
 
 
 
